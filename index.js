@@ -24,6 +24,7 @@ function validateDayOfBirth() {
         dayLabelError.style.color = "red";
         dayOfBirthError.textContent = "Must be a valid day";
     } else {
+        dayLabelError.style.color = "";
         dayOfBirthError.textContent = "";
     }
 }
@@ -39,6 +40,7 @@ function validateMonthOfBirth() {
         monthLabelError.style.color = "red";
         monthOfBirthError.textContent = "Must be a valid month";
     } else {
+        monthLabelError.style.color = "";
         monthOfBirthError.textContent = "";
     }
 }
@@ -55,6 +57,7 @@ function validateYearOfBirth() {
         yearLabelError.style.color = "red";
         yearOfBirthError.textContent = "Must be in the past";
     } else {
+        yearLabelError.style.color = "";
         yearOfBirthError.textContent = "";
     }
 }
