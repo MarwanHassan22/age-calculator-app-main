@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <script src="index.js" defer></script>
+  <title>Age Calculator App</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="age-calculator">
+      <div class="date-of-birth-form">
+        <div class="day-slot">
+          <label id="day-label" for="day">Day</label>
+          <input id="day" class="dayOfBirth" type="text" placeholder="DD" />
+          <div id="day-error" class="error"></div>
+        </div>
+        <div class="month-slot">
+          <label id="month-label" for="month">month</label>
+          <input id="month" class="monthOfBirth" type="text" placeholder="MM" />
+          <div id="month-error" class="error"></div>
+        </div>
+        <div class="year-slot">
+          <label id="year-label" for="year">year</label>
+          <input id="year" class="yearOfBirth" type="text" placeholder="YYYY" />
+          <div id="year-error" class="error"></div>
+        </div>
+      </div>
+      <div class="hr">
+        <hr />
+        <button id="btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="result">
+        <p><span id="year-result">--</span>years</p>
+        <p><span id="month-result">--</span>months</p>
+        <p><span id="day-result">--</span>days</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
